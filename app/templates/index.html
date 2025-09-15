@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block title %}Telco Konrad API{% endblock %}
+
+{% block content %}
+<h1 class="text-center">Telco Konrad API</h1>
+<p class="text-center">Selecciona una API para interactuar:</p>
+<ul class="list-group">
+    <li class="list-group-item"><a href="/validar_identidad" class="btn btn-link">Validar Identidad</a></li>
+    <li class="list-group-item"><a href="/enrolamiento" class="btn btn-link">Enrolamiento</a></li>
+    <li class="list-group-item"><a href="/gestion_documentos" class="btn btn-link">Gestión de Documentos</a></li>
+    <li class="list-group-item"><a href="/contratos_digitales" class="btn btn-link">Contratos Digitales</a></li>
+    <li class="list-group-item"><a href="/estado_solicitudes" class="btn btn-link">Estado de Solicitudes</a></li>
+</ul>
+{% endblock %}
